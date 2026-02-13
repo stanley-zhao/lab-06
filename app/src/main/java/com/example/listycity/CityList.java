@@ -1,15 +1,12 @@
 package com.example.listycity;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
 /**
- * This is a class that keeps a list of city objects
+ * This is a class that keeps track of a list of city objects
  */
 public class CityList {
     private List<City> cities = new ArrayList<>();
-
     /**
      * This adds a city to the list if the city does not exist
      * @param city
@@ -21,7 +18,6 @@ public class CityList {
         }
         cities.add(city);
     }
-
     /**
      * This returns a sorted list of cities
      * @return
